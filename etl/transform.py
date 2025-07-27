@@ -70,4 +70,4 @@ if __name__ == "__main__":
         print(f"ETL process failed: {e}")
     else:
         print("ETL process completed successfully.")
-        print("Data loaded into PostgreSQL database.")  
+      
