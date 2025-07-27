@@ -9,6 +9,7 @@ DB_USER = "postgres"
 DB_PASSWORD = "postgres"
 
 print("Starting ETL process...")
+print("Fetching data from API...")
 
 def fetch_crypto_data():
     url="https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd"
